@@ -10,6 +10,7 @@ import string from './string.js';
 import user from './user.js';
 import utils from './utils/';
 import defaults from './defaults';
+import * as Types from './Types';
 
 import {
   CineService,
@@ -107,6 +108,7 @@ export {
   IWebApiDataSource,
   DicomMetadataStore,
   pubSubServiceInterface,
+  Types,
 };
 
 export { OHIF };
